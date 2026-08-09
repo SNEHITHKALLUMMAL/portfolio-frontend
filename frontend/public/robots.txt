@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Disallow: /dashboard
+Disallow: /login
+
+# Sitemap is generated dynamically by the backend (GET /sitemap.xml) since
+# it lists published projects/blogs/certificates from the database. Add the
+# line below once this is deployed and you know the production domain:
+# Sitemap: https://your-domain.com/sitemap.xml
